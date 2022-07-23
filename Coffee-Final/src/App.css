@@ -1,0 +1,110 @@
+body{
+  background-image: url("coffee2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:20px;
+}
+h1 {
+  margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 30px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+  position: absolute;
+  left: 38%;
+}
+.container{
+  position: absolute;
+  color:#FFFFFF;
+  font-weight:bold;
+  top: 25%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+}
+.container1{
+  position: absolute;
+  font-weight:bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container2{
+  position: absolute;
+  font-weight:bold;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container3{
+  position: absolute;
+  font-weight:bold;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.add-btn{
+  appearance: button;
+  font-weight:bold;
+  background-color: #4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.add-btn:focus:not(:focus-visible),
+.add-btn:focus {
+  outline: 0;
+}
+
+.add-btn:hover {
+  background-color: #3733E5;
+  border-color: #3733E5;
+}
+
+.add-btn:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.add-btn:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.add-btn:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.add-btn:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
